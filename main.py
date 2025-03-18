@@ -21,8 +21,6 @@ def main():
     Refrence: https://docs.python.org/3/library/argparse.html
     """
 
-
-
     parser=argparse.ArgumentParser(description="Generated Video From an Image")
     parser.add_argument("--image", required=True, help="Path to the image file")
     parser.add_argument("--text", required=True, default="Text to overlay on image",
